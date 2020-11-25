@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive PortFolio Website</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/custom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">PORTFO<span>LIO</span></div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+
+       <div class="text">
+           <p>Hello,I am</p>
+           <h1>Swapna Devi</h1>
+           <p>and I am a<span id="ani" style="color: #e74c3c;"></span></p>
+           <button class="c-btn">Hire Me</button>
+       </div>
+
+
+        </header>
+        <section id="about">
+            <div class="section-info">
+                <h1>About</h1>
+                <p>Me..</p>
+            </div>
+
+            <div class="about-row">
+                <div class="about-left-col">
+                    <img src="images/IMG_20201125_182413.jpg">
+                </div>
+                <div class="about-right-col">
+                    <p id="p-title">
+                        Hello,My name is Swapna Devi and I am from Assam,India.
+
+                    </p>
+                    <p>I am currently pursuing Bachelor of Engineering in Computer Science and Engineering from Chandigarh Group of College,Jhanjeri.
+                        Currently I am in third semester.
+                    </p>
+                         <button class="c-btn">Download Resume</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="Skills">
+            <div class="section-info">
+                <h1 style="color: white;">Skill's</h1>
+                <p>..</p>
+            </div>
+            <div class="skills-row">
+                <div class="skills-left-col">
+                <p>Hey,I am Swapna Devi.My field of interest are Web Development,Competitive coding,content Writing and Painting and also 
+                    learning new tech stack.I am good in C++,HTML,CSS ,OOP.My additional skills include adobe xd,Java,Javascript,Data Structure 
+                    and algorithm (basic),open source,Github.</p>
+                    <button class="c-btn">Read More</button>
+                </div>
+                <div class="skills-right-col">
+                    <div class="progress-div">
+                        <p>
+                        <span>HTML</span><br>
+                        <progress value="80"max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>CSS</span><br>
+                        <progress value="80"max="100"></progress>
+                        <span>60%</span>
+                    </p>
+                    <p>
+                        <span>C++</span><br>
+                        <progress value="80"max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>OOP</span><br>
+                        <progress value="80"max="100"></progress>
+                        <span>70%</span>
+                    </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    <section id="contact">
+        <div class="section-info" style="color: white;">
+            <h1>Get in Touch</h1>
+            <p style="color: black;">Happy to connect</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="images/b3.png">
+
+            </div>
+            <div class="contact-right-col">
+                <form>
+                    <h2>Connect with us</h2>
+                    <input type="text" name="" placeholder="Name">
+                    <input type="email" name="" placeholder="E-mail">
+                    <br>
+                    <textarea cols="40" rows="10" placeholder="Message">
+                        
+                    </textarea>
+                  <br>
+                  <button class="c-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Developed by <br>Swapna Devi</h2>
+        <img src="images/icon.png" width="100">
+    </section>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            $('header').ripples({
+  dropRadius: 20,
+  perturbance: 0.03,
+  
+});
+        });
+    </script>
+   
+    </body>
+</html>
